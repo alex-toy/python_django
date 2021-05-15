@@ -12,3 +12,6 @@ deactivate
 
 python -m pip install -r requirements.txt
 
+django-admin startproject darties .
+
+python manage.py runserver
