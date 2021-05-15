@@ -1,2 +1,3 @@
 .venv/*
 
+src/darties/__pycache__/*
