@@ -22,7 +22,7 @@ python manage.py startapp app_name
 
 
 # Database :
-startapp products
+python manage.py startapp products
 python manage.py makemigrations
 python manage.py migrate
 
