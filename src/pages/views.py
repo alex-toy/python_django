@@ -11,8 +11,8 @@ def home_view(request, *args, **kwargs): # *args, **kwargs
 
 
 def contact_view(request, *args, **kwargs):
-    #return render(request, "contact.html", {})
-    return HttpResponse("<h1>contact page</h1>") 
+    return render(request, "contact.html", {})
+    #return HttpResponse("<h1>contact page</h1>") 
 
 
 
