@@ -31,3 +31,5 @@ def about_view(request, *args, **kwargs):
 
 def social_view(request, *args, **kwargs):
     return HttpResponse("<h1>Socail Page</h1>")
+
+

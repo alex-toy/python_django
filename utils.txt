@@ -30,5 +30,8 @@ python manage.py migrate
 # Manipulate objects :
 python manage.py shell
 Product.objects.all()
+prod = Product.objects.get(id=1)
+prod.save()
+print(prod.price)
 Product.objects.create(title='my title', price=25)
 

@@ -1,6 +1,7 @@
 .venv/*
 
 src/darties/__pycache__/*
+src/.DS_Store
 
 src/products/__pycache__/*
 src/products/migrations/__pycache__/*
