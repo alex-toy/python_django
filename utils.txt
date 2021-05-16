@@ -16,15 +16,19 @@ django-admin startproject darties .
 
 python manage.py runserver
 
-python manage.py migrate
-
 python manage.py createsuperuser
 
 python manage.py startapp app_name
 
 
-#database
+# Database :
+startapp products
 python manage.py makemigrations
 python manage.py migrate
 
+
+# Manipulate objects :
+python manage.py shell
+Product.objects.all()
+Product.objects.create(title='my title', price=25)
 
